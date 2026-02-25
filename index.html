@@ -153,19 +153,15 @@
     // DALAM RUMAH (repetisi)
     var pushUp = 18 + diff * 2;
     var bicepCurl = 14 + diff * 2;
-    var tricepKick = 12 + diff;
-
-    // LUAR RUMAH (renang di menit)
-    var swimMinutes = 10 + diff * 2;
+    var tricepKickback = 12 + diff;
+    var benchDips = 10 + diff * 2;
 
     document.getElementById("training").innerHTML = `
       <div class="section-title">💪 Dalam Rumah</div>
       <div class="exercise"><div>Push-up</div><div class="qty">${pushUp} repetisi</div></div>
       <div class="exercise"><div>Bicep Curl</div><div class="qty">${bicepCurl} repetisi</div></div>
-      <div class="exercise"><div>Tricep Kickback</div><div class="qty">${tricepKick} repetisi</div></div>
-
-      <div class="section-title">🌊 Luar Rumah</div>
-      <div class="exercise"><div>Renang</div><div class="qty">${swimMinutes} menit</div></div>
+      <div class="exercise"><div>Tricep Kickback</div><div class="qty">${tricepKickback} repetisi</div></div>
+      <div class="exercise"><div>Bench Dips</div><div class="qty">${benchDips} repetisi</div></div>
     `;
   }
 
